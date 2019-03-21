@@ -7,15 +7,143 @@
   <meta name="author" content="Charlotte Cambau">
   <meta name="keywords" content="portfolio, cambau, design, web">
   <meta name="description" content="Charlotte Cambau's web design portfolio">
-  <link rel="stylesheet" href="">
+  <link rel="stylesheet" href="#">
   <title>Charlotte Cambau</title>
 </head>
 <body>
-  <h1>Charlotte Cambau</h1>
-  <nav>
-    <a href="#">About</a>
-    <a href="#">Work</a>
-    <a href="#">Contact</a>
-  </nav>
+  <!--name and nav box-->
+  <header>
+    <h1>Charlotte Cambau</h1>
+
+    <nav>
+      <a href="#">About</a>
+      <a href="#">Work</a>
+      <a href="#">Contact</a>
+    </nav>
+
+    <div class="double-square"></div>
+  </header>
+
+  <!--Content of the page-->
+  <main>
+    <!--Three info boxes in a wrapper to make them flex items-->
+    <article class="wrapper">
+      <article class="square info">
+        <div class="inside-box">
+          <p>23 years old.</p>
+          <p>Born and raised in Paris</p>
+        </div>
+      </article>
+
+      <div class="double-square"></div>
+      
+      <article class="square school">
+        <div class="inside-box">
+          <p>SPD -</p>
+          <p>Scuola Politecnica Di Design</p>
+        </div>
+      </article>
+
+      <div class="double-square"></div>
+      
+      <article class="square work">
+        <div class="inside-box">
+          <p>UX design</p>
+          <p>UI design</p>
+          <p>Front-end development</p>
+        </div>
+      </article>
+
+      <div class="double-square"></div>
+    </article>
+
+    <img src="images/arrow.png" alt="black arrow" width="100px;">
+
+    <!--Preview of a few selected works in a section on homepage-->
+    <section class="selected-work">
+      <h2><a href="#">Selected Works</a></h2>
+
+      <!--article with an image, and the name and date of project-->
+      <article class="works TheFork">
+        <img src="images/TheFork/TheFork.png" alt="Ipad 8 with homepage of the fork" width="400px" class="TheFork-display">
+        
+        <div class="double-square"></div>
+
+        <article class="project-name">
+          <h3>The Fork redesign project</h3>
+          <p>2018</p>
+          <p>SPD Milano</p>
+        </article>
+
+        <div class="double-square"></div>
+      </article>
+
+      <!--article with an image, and the name and date of project-->
+      <article class="works Fendi">
+        <img src="images/Fendi/fendi-mockup.png" alt="Fendi in Ipad Pro" width="400px" class="Fendi-display">
+
+        <div class="double-square"></div>
+
+        <article class="project-name">
+          <h3>Fendi MTO redesign project</h3>
+          <p>2018</p>
+          <p>SPD Milano</p>
+        </article>
+
+        <div class="double-square"></div>
+      </article>
+
+      <!--article with an image, and the name and date of project-->
+      <article class="works Ultralight">
+        <img src="images/Ultralight/ultralight-beam.png" alt="image of the cover of the magazine" width="400px" class="ultralight-display">
+
+        <div class="double-square"></div>
+
+        <article class="project-name">
+          <h3>Ultralight Beam design project</h3>
+          <p>2018</p>
+          <p>SPD Milano</p>
+        </article>
+      </article>
+    </section>
+
+    <!--section with contact info-->
+    <section class="contact">
+      <h2>Contact</h2>
+
+      <!--div to contain the contact info and make it display flex-->
+      <div class="container">
+        <article>
+          <div class="inside-box">
+            <a href="tel:+33607199344">+33607199344</a>
+          </div>
+          
+          <p>Phone</p>
+        </article>
+
+        <div class="double-square"></div>
+        
+        <article>
+          <div class="inside-box">
+            <a href="mailto:charlottecambau@gmail.com">charlottecambau@gmail.com</a>
+          </div>
+
+          <p>Email</p>
+        </article>
+
+        <div class="double-square"></div>
+        
+        <article>
+          <div class="inside-box">
+            <a href="https://www.behance.net/charlotteced35">Charlotte Cambau</a>
+          </div>
+
+          <p>Behance</p>
+        </article>
+
+        <div class="double-square"></div>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
