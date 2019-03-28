@@ -99,3 +99,21 @@ nav a {
 .square p {
   padding-left: 20px;
 }
+
+.arrow-down {
+  margin-top: -20px;
+}
+
+main {
+  width: 100%;
+}
+
+.selected-work {
+  margin-top: 100px;
+}
+
+.works-title {
+  text-decoration: none;
+  color: black;
+  font-size: 3em;
+}
