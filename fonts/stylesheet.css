@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Fjalla One';
+    src: url('subset-FjallaOne-Regular.woff2') format('woff2'),
+        url('subset-FjallaOne-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DINPro';
+    src: url('subset-DINPro-Bold.woff2') format('woff2'),
+        url('subset-DINPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DINPro';
+    src: url('subset-DINPro-Black.woff2') format('woff2'),
+        url('subset-DINPro-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DINPro';
+    src: url('subset-DINPro-Light.woff2') format('woff2'),
+        url('subset-DINPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DINPro';
+    src: url('subset-DINPro-Regular.woff2') format('woff2'),
+        url('subset-DINPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DINPro';
+    src: url('subset-DINPro-Medium.woff2') format('woff2'),
+        url('subset-DINPro-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
