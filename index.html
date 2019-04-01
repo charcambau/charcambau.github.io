@@ -27,26 +27,20 @@
   <main>
     <!--Three info boxes in a wrapper to make them flex items-->
     <article class="wrapper">
-      <article class="square info has-shadow">
-        <div class="inside-box">
-          <p>23 years old.</p>
-          <p>Born and raised in Paris</p>
-        </div>
+      <article class="info-box has-shadow">
+        <p>23 years old.</p>
+        <p>Born and raised in Paris</p>
       </article>
       
-      <article class="square school has-shadow">
-        <div class="inside-box">
-          <p>SPD -</p>
-          <p>Scuola Politecnica Di Design</p>
-        </div>
+      <article class="info-box has-shadow">
+        <p>SPD -</p>
+        <p>Scuola Politecnica Di Design</p>
       </article>
       
-      <article class="square work has-shadow">
-        <div class="inside-box">
-          <p>UX design</p>
-          <p>UI design</p>
-          <p>Front-end development</p>
-        </div>
+      <article class="info-box has-shadow">
+        <p>UX design</p>
+        <p>UI design</p>
+        <p>Front-end development</p>
       </article>
     </article>
 
@@ -58,12 +52,10 @@
 
       <!--article with an image, and the name and date of project-->
       <article class="works TheFork">
-        <div class="image has-shadow">
-          <img src="images/TheFork/TheFork.png" alt="Ipad 8 with homepage of the fork" width="400" class="TheFork-display">
-        </div>
+        <img src="images/TheFork/TheFork.png" alt="Ipad 8 with homepage of the fork" width="400" class="has-shadow">
 
         <article class="project-name has-shadow">
-          <h3>The Fork redesign project</h3>
+          <h3>The Fork <br> redesign project</h3>
 
           <p>2018</p>
 
@@ -73,25 +65,21 @@
 
       <!--article with an image, and the name and date of project-->
       <article class="works Fendi">
-        <div class="image has-shadow">
-          <img src="images/Fendi/fendi-mockup.png" alt="Fendi in Ipad Pro" width="400px" class="Fendi-display">
-        </div>
+        <img src="images/Fendi/fendi-mockup.png" alt="Fendi in Ipad Pro" width="400px" class="has-shadow">
 
         <article class="project-name has-shadow">
-          <h3>Fendi MTO redesign project</h3>
-          <p>2018</p>
-          <p>SPD Milano</p>
+          <h3>Fendi MTO <br> redesign project</h3>
+            <p>2018</p>
+            <p>SPD Milano</p>
         </article>
       </article>
 
       <!--article with an image, and the name and date of project-->
       <article class="works Ultralight">
-        <div class="image has-shadow">
-          <img src="images/Ultralight/ultralight-beam.png" alt="image of the cover of the magazine" width="400px" class="ultralight-display">
-        </div>
+        <img src="images/Ultralight/ultralight-beam.png" alt="image of the cover of the magazine" width="400px" class="has-shadow">
 
         <article class="project-name has-shadow">
-          <h3>Ultralight Beam design project</h3>
+          <h3>Ultralight Beam <br> design project</h3>
           <p>2018</p>
           <p>SPD Milano</p>
         </article>
@@ -102,35 +90,32 @@
     <section class="contact">
       <h2>Contact</h2>
 
-      <!--div to contain the contact info and make it display flex-->
-      <div class="container">
-        <article class="has-shadow">
-          <div class="inside-box">
-            <a href="tel:+33607199344">+33607199344</a>
-          </div>
-          
-          <p>Phone</p>
-        </article>
+      <article class="contact-info has-shadow phone">
+        <a href="tel:+33607199344">+33607199344</a>
         
-        <article class="has-shadow">
-          <div class="inside-box">
-            <a href="mailto:charlottecambau@gmail.com">charlottecambau@gmail.com</a>
-          </div>
+        <p>Phone</p>
+      </article>
+      
+      <article class="contact-info has-shadow email">
+        <a href="mailto:charlottecambau@gmail.com">charlottecambau@gmail.com</a>
 
-          <p>Email</p>
-        </article>
-        
-        <article class="has-shadow">
-          <div class="inside-box">
-            <a href="https://www.behance.net/charlotteced35">Charlotte Cambau</a>
-          </div>
+        <p>Email</p>
+      </article>
+      
+      <article class="contact-info has-shadow behance">
+        <a href="https://www.behance.net/charlotteced35">Charlotte Cambau</a>
 
-          <p>Behance</p>
-        </article>
-      </div>
+        <p>Behance</p>
+      </article>
+      
+      <article class="contact-info has-shadow Linkedin">
+        <a href="https://fr.linkedin.com/in/charlotte-cambau-769316b9">Charlotte Cambau</a>
+
+        <p>Linkedin</p>
+      </article>
     </section>
 
-    <img src="images/arrow.png" alt="black arrow" width="100">
+    <a href="#top"><img src="images/arrow.png" alt="black arrow" width="50" class="arrow-bottom"></a>
   </main>
 </body>
 </html>

@@ -1,3 +1,52 @@
+/* embed the fonts */
+@font-face {
+  font-family: 'Fjalla One';
+  src: url('fonts/subset-FjallaOne-Regular.woff2') format('woff2'),
+      url('fonts/subset-FjallaOne-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DINPro';
+  src: url('fonts/subset-DINPro-Bold.woff2') format('woff2'),
+      url('fonts/subset-DINPro-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DINPro';
+  src: url('fonts/subset-DINPro-Black.woff2') format('woff2'),
+      url('fonts/subset-DINPro-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DINPro';
+  src: url('fonts/subset-DINPro-Light.woff2') format('woff2'),
+      url('fonts/subset-DINPro-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DINPro';
+  src: url('fonts/subset-DINPro-Regular.woff2') format('woff2'),
+      url('fonts/subset-DINPro-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DINPro';
+  src: url('fonts/subset-DINPro-Medium.woff2') format('woff2'),
+      url('fonts/subset-DINPro-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -10,7 +59,7 @@ body {
   display: flex;
   flex-direction: column;
 
-  font-family: sans-serif;
+  font-family: 'DINPro', sans-serif;
 }
 
 header {
@@ -23,18 +72,23 @@ header {
 
 h1 {
   max-width: 265px;
-  margin-left: 40px;
+  margin-left: 60px;
 
+  font-family: 'Fjalla One', sans-serif;
   font-size: 5em;
   line-height: 1em;
+}
+
+h2 {
+  margin-left: 60px;
+  font-family: 'Fjalla One', sans-serif;
 }
 
 nav {
   max-width: 150px;
   margin-top: 40px;
-  margin-left: 500px;
   margin-right: 60px;
-  padding: 5px 40px;
+  padding: 5px 30px;
 
   display: flex;
   flex-direction: column;
@@ -45,15 +99,13 @@ nav {
 
 nav a {
   margin-top: 25px;
-  margin-left: 10px;
-  padding: 5px 0;
+  padding-right: 30px;
 
   text-decoration: none;
   color: black;
 }
 
 /* shadow pseudo element */
-
 .has-shadow {
   position: relative;
 }
@@ -72,8 +124,6 @@ nav a {
 }
 
 .wrapper {
-  /* width: 100%; */
-  /* height: 300px; */
   margin-top: 150px;
   margin-left: 20px;
   margin-right: 20px;
@@ -83,34 +133,33 @@ nav a {
   align-items: center;
 }
 
-.square {
-  position: relative;
-  /* width: 350px; */
-  height: 150px;
-  padding-right: 80px;
-  padding-bottom: 40px;
+.info-box {
+  min-height: 200px;
+  padding: 20px;
   margin: 0 20px;
 
   flex-grow: 1;
+
+  position: relative;
 
   border: 2px solid black;
   background-color: #FAF8F8;
 }
 
-.double-nav {
-  width: 150px;
-  height: 200px;
+.info-box p {
+  margin: 0;
 }
 
-.inside-box {
+.info-box:before {
+  content: "";
   width: 100%;
-  height: 85%;
+  height: 2px;
 
-  border-bottom: 2px solid black;
-}
+  position: absolute;
+  left: 0;
+  bottom: 40px;
 
-.square p {
-  padding-left: 20px;
+  background-color: black;
 }
 
 .arrow-down {
@@ -132,49 +181,36 @@ main {
 }
 
 .works {
-  width: 100%;
-  margin: 40px auto;
+  margin: 200px auto;
 
   display: flex;
-  justify-content: space-between;
 }
 
 .works img {
-  width: 600px;
+  width: 60%;
+  margin-left: 60px;
+
   align-self: flex-start;
 }
 
-.image {
-  position: relative;
-  margin-left: 60px;
-}
-
-.works .double-square {
-  width: 600px;
-  height:450px;
-}
-
-.Ultralight .double-square {
-  height: 400px;
-}
-
 .project-name {
+  margin-top: -100px;
+  margin-left: -80px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  padding-left: 10px;
+  padding-right: 120px;
+
+  align-self: flex-start;
+
   position: relative;
-  width: 350px;
-  height: 200px;
-  margin-right: 60px;
 
   border: 2px solid black;
   background-color: #FAF8F8;
 }
 
-.project-name .double-square {
-  width: 350px;
-  height: 200px;
-}
-
 .project-name h3 {
-  margin-left: 10px;
+  margin: 0;
   margin-bottom: 40px;
 
   font-size: 1.5em;
@@ -182,7 +218,67 @@ main {
 }
 
 .project-name p {
+  margin: 0;
   margin-left: 10px;
 
   text-transform: uppercase;
+}
+
+.contact {
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contact h2 {
+  align-self: flex-start;
+  font-size: 3em;
+}
+
+.contact p {
+  margin: 0;
+}
+
+.contact-info {
+  margin-top: 120px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-right: 100px;
+  padding-left: 20px;
+
+  border: 2px solid black;
+  background-color: #FAF8F8;
+}
+
+.phone {
+  margin-top: 10px;
+  margin-left: 600px;
+}
+
+.email {
+  margin-left: 200px;
+}
+
+.behance {
+  margin-left: 600px;
+}
+
+.Linkedin {
+  margin-left: 200px;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.6em;
+}
+
+.contact-info p {
+  margin-top: 50px;
+}
+
+.arrow-bottom {
+  margin-top: 20px;
+  transform: rotate(180deg);
 }
