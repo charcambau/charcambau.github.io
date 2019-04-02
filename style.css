@@ -86,6 +86,10 @@ h2 {
   font-family: 'Fjalla One', sans-serif;
 }
 
+h3 {
+  font-family: 'Fjalla One', sans-serif;
+}
+
 nav {
   max-width: 150px;
   margin-top: 40px;
@@ -109,14 +113,31 @@ nav a:first-child {
   padding-top: 0;
 }
 
+.box {
+  border: 2px solid black;
+  background-color: #FAF8F8;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
 .arrow-bottom {
   margin-top: 20px;
   transform: rotate(180deg);
 }
 
-.box {
-  border: 2px solid black;
-  background-color: #FAF8F8;
+.cross-bottom {
+  float: right;
+}
+
+footer {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 25px 60px;
 }
 
 /* shadow pseudo element */
@@ -288,8 +309,8 @@ main {
 /* PROJECT ONE : THE FORK */
 .theForkDisplay {
   width: 50%;
-  margin-top: 180px;
-  margin-left: -550px;
+  margin-top: 250px;
+  margin-left: -500px;
 
   align-self: flex-start;
 }
@@ -299,13 +320,12 @@ main {
 }
 
 .fork-title {
-  margin-top: 80px;
-  margin-left: 40px;
+  margin-top: 120px;
+  margin-left: 10px;
   padding-top: 35px;
-  padding-right: 250px;
+  padding-right: 150px;
   padding-left: 35px;
 
-  flex-shrink: 0;
   align-self: flex-start;
 }
 
@@ -376,9 +396,176 @@ main {
 }
 
 .style-description {
+  margin-right: 60px;
   margin-left: 600px;
   padding-top: 25px;
   padding-right: 100px;
   padding-bottom: 25px;
   padding-left: 25px;
+}
+
+.rectangles {
+  margin-top: 100px;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.rec {
+  width: 50%;
+  height: 150px;
+}
+
+.purple {
+  display: flex;
+
+  background-color: #773DD4;
+  color: #1CF490;
+  font-weight: 500;
+}
+
+.purple p {
+  margin-left: 300px;
+}
+
+.green {
+  background-color: #1CF490;
+  color: #773DD4;
+  font-weight: 500;
+}
+
+.green p {
+  margin-top: 115px;
+  margin-left: 10px;
+}
+
+.elements {
+  width: 100%;
+  height: 150px;
+  margin-top: 250px;
+
+  display: flex;
+  align-items: center;
+
+  background-image: url(images/TheFork/bg-icons.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.card {
+  width: 30%;
+  margin-top: -200px;
+  margin-left: 250px;
+
+  order: 1;
+}
+
+.brekky {
+  width: 30%;
+  margin-top: 220px;
+}
+
+.ux {
+  margin-top: 200px;
+}
+
+.ux h2 {
+  width: 150px;
+  margin: 0;
+  margin-left: 60px;
+
+  text-align: right;
+  border-top: 2px solid black;
+}
+
+.ux-pages {
+  margin: 100px auto;
+  padding-right: 20px;
+  padding-left: 20px;
+
+  display: flex;
+  align-items: flex-start;
+}
+
+.ux-pages img {
+  width: 35%;
+}
+
+.description {
+  margin-top: -250px;
+  margin-right: 60px;
+  padding-top: 25px;
+  padding-right: 100px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+
+  align-self: center;
+}
+
+.description-two {
+  margin-left: 60px;
+}
+
+.description-three {
+  margin-left: 80px;
+}
+
+.details {
+  margin-top: 150px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.details h3 {
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.role, .with, .for, .on {
+  margin: 25px;
+  padding-top: 25px;
+  padding-right: 100px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+}
+
+.role, .for {
+  margin-left: 60px;
+}
+
+.with, .on {
+  margin-left: 650px;
+}
+
+/* PROJECT TWO : FENDI */
+
+.FendiHeader {
+  align-items: center;
+}
+
+.FendiHeader img {
+  width: 50%;
+  margin-top: 250px;
+  margin-left: -150px;
+}
+
+.title {
+  margin-top: -200px;
+  margin-left: 40px;
+  padding-top: 25px;
+  padding-right: 150px;
+  padding-left: 25px;
+}
+
+.title h1 {
+  margin: 0;
+}
+
+.thebrief {
+  display: flex;
+  justify-content: center;
 }
