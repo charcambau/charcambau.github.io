@@ -47,6 +47,8 @@
   font-style: normal;
 }
 
+
+/* base */
 * {
   box-sizing: border-box;
 }
@@ -88,21 +90,33 @@ nav {
   max-width: 150px;
   margin-top: 40px;
   margin-right: 60px;
-  padding: 5px 30px;
+  padding: 35px 30px;
 
   display: flex;
   flex-direction: column;
-
-  border: 2px solid black;
-  background-color: #FAF8F8;
+  align-self: flex-start;
 }
 
 nav a {
-  margin-top: 25px;
+  padding-top: 35px;
   padding-right: 30px;
 
   text-decoration: none;
   color: black;
+}
+
+nav a:first-child {
+  padding-top: 0;
+}
+
+.arrow-bottom {
+  margin-top: 20px;
+  transform: rotate(180deg);
+}
+
+.box {
+  border: 2px solid black;
+  background-color: #FAF8F8;
 }
 
 /* shadow pseudo element */
@@ -123,7 +137,8 @@ nav a {
   border: 2px solid #00FFE2;
 }
 
-.wrapper {
+/* HOMEPAGE */
+.info-wrapper {
   margin-top: 150px;
   margin-left: 20px;
   margin-right: 20px;
@@ -141,9 +156,6 @@ nav a {
   flex-grow: 1;
 
   position: relative;
-
-  border: 2px solid black;
-  background-color: #FAF8F8;
 }
 
 .info-box p {
@@ -204,9 +216,6 @@ main {
   align-self: flex-start;
 
   position: relative;
-
-  border: 2px solid black;
-  background-color: #FAF8F8;
 }
 
 .project-name h3 {
@@ -246,9 +255,6 @@ main {
   padding-bottom: 20px;
   padding-right: 100px;
   padding-left: 20px;
-
-  border: 2px solid black;
-  background-color: #FAF8F8;
 }
 
 .phone {
@@ -278,7 +284,101 @@ main {
   margin-top: 50px;
 }
 
-.arrow-bottom {
-  margin-top: 20px;
-  transform: rotate(180deg);
+
+/* PROJECT ONE : THE FORK */
+.theForkDisplay {
+  width: 50%;
+  margin-top: 180px;
+  margin-left: -550px;
+
+  align-self: flex-start;
+}
+
+.forkNav{
+  margin-left: -260px;
+}
+
+.fork-title {
+  margin-top: 80px;
+  margin-left: 40px;
+  padding-top: 35px;
+  padding-right: 250px;
+  padding-left: 35px;
+
+  flex-shrink: 0;
+  align-self: flex-start;
+}
+
+.fork-title h1 {
+  margin: 0;
+}
+
+.fork-title .inside-box {
+  margin: 0;
+}
+.intro {
+  margin-top: 100px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.brief {
+  width: 80%;
+  margin-bottom: 40px;
+  padding-top: 25px;
+  padding-right: 100px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+}
+
+.brief h2, .challenge h2, .style-container h2 {
+  margin: 0;
+  font-size: 2em;
+}
+
+.challenge {
+  width: 100%;
+  margin-top: 150px;
+
+  display: flex;
+  align-items: flex-start;
+}
+
+.challenge .box {
+  width: 40%;
+  margin: 10px auto;
+  padding-top: 25px;
+  padding-right: 100px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+}
+
+.challenge img {
+  width: 30%;
+  margin: 10px auto;
+}
+
+.style {
+  margin-top: 150px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.style-container {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.style-description {
+  margin-left: 600px;
+  padding-top: 25px;
+  padding-right: 100px;
+  padding-bottom: 25px;
+  padding-left: 25px;
 }

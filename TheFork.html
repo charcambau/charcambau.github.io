@@ -7,22 +7,14 @@
   <meta name="author" content="Charlotte Cambau">
   <meta name="keywords" content="portfolio, cambau, design, web, TheFork">
   <meta name="description" content="Charlotte Cambau's web design portfolio">
-  <link rel="stylesheet" href="thefork.css">
+  <link rel="stylesheet" href="style.css">
   <title>Charlotte Cambau - The Fork</title>
 </head>
 <body>
   <!--header with the title of the project, an image and the navigation box-->
   <header>
-    <nav>
-      <a href="#">About</a>
-      <a href="#">Work</a>
-      <a href="#">Contact</a>
-    </nav>
-
-    <img src="images/TheFork/TheFork.png" alt="display img of the fork" width="400">
-
     <!-- the title of the project in a box -->
-    <article class="title">
+    <article class="box fork-title has-shadow">
       <h1>The Fork</h1>
 
       <div class="inside-box">
@@ -30,31 +22,33 @@
       </div>
     </article>
 
-    <div class="double-square"></div>
+    <img src="images/TheFork/TheFork.png" alt="display img of the fork" class="theForkDisplay">
+
+    <nav class="box has-shadow forkNav">
+      <a href="#">About</a>
+      <a href="#">Work</a>
+      <a href="#">Contact</a>
+    </nav>
   </header>
 
   <!--Main- all the rest of the content can be found here. 1.intro 2.style 3.UX 4.details-->
   <main>
     <!--article for the intro to the project with brief and challenge-->
     <article class="intro">
-      <!--Div to contain the text about the brief-->
-      <div class="brief">
-        <section class="description">
-          <h2>The brief</h2>
+      <!--Section to contain the text about the brief-->
+      <section class="box brief fork-brief has-shadow">
+        <h2>The brief</h2>
 
-          <article>
-            <p>This project was part of a UX design class at Scuola Politecnica di Design (Milan).</p>
+        <article>
+          <p>This project was part of a UX design class at Scuola Politecnica di Design (Milan).</p>
 
-            <p><strong>Redesign TheFork by doing research, finding people’s needs and their issues with the service Add new features, or redesign new ones.</strong></p>
-          </article>
-
-          <div class="double-square"></div>
-        </section>
-      </div>
+          <p><strong>Redesign TheFork by doing research, finding people’s needs and their issues with the service Add new features, or redesign new ones.</strong></p>
+        </article>
+      </section>
 
       <!--Div to contain the image and text about the challenge-->
-      <div class="challenge">
-        <section class="description">
+      <div class="challenge fork-challenge">
+        <section class="box description has-shadow">
           <h2>The challenge</h2>
 
           <article>
@@ -62,8 +56,6 @@
 
             <p>The Fork, being an app mainly for promotions and booking didn’t seem to have a design adapted to those qualities.</p>
           </article>
-
-          <div class="double-square"></div>
         </section>
 
         <img src="images/TheFork/old-app.png" alt="mockup with the old app in it" width="200">
@@ -72,14 +64,11 @@
 
     <!--article for the style part of the project-->
     <article class="style">
-      <div class="container">
-        <h3>Style</h3>
-
-        <div class="wrapper">
-          <p></p>
+      <div class="style-container">
+        <div class="box style-description has-shadow">
+            <h2>Style</h2>
+          <p>We went for a younger, more vibrant look, modern cards and an original layout</p>
         </div>
-
-        <div class="double-square"></div>
       </div>
 
       <!--div with the two rectangles of color-->
@@ -103,7 +92,7 @@
       <section class="profile">
         <img src="images/TheFork/mockup_profile5.png" alt="mockup with profile page in it" width="200">
         
-        <article>
+        <article class="box profile-description has-shadow">
           <h4>Profile page:</h4>
           <p>a dedicated space for customers to see their fidelity points, past bookings, favorites and next booking.</p>
         </article>
@@ -111,7 +100,7 @@
         <div class="double-square"></div>
       </section>
 
-      <section class="restaurant">
+      <section class="box restaurant-description has-shadow">
         <article>
           <h4>Restaurant page: </h4>
           <p>split information into categories and a navigation to access information easily</p>
@@ -122,7 +111,7 @@
         <img src="images/TheFork/mockup_restaurantpage.png" alt="mockup with restaurant page in it" width="200">
       </section>
 
-      <section class="map">
+      <section class="box map-description has-shadow">
         <img src="images/TheFork/mockup_map1.png" alt="mockup with map page in it" width="200">
 
         <article>
