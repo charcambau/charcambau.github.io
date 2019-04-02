@@ -7,55 +7,58 @@
   <meta name="author" content="Charlotte Cambau">
   <meta name="keywords" content="portfolio, cambau, design, web, visual">
   <meta name="description" content="Charlotte Cambau's web design portfolio">
-  <link rel="stylesheet" href="#">
+  <link rel="stylesheet" href="style.css">
   <title>Charlotte Cambau - Ultralight beam</title>
 </head>
 <body>
   <!-- header with the page title, an image of the project and nav -->
   <header>
-    <nav>
-      <a href="#">About</a>
-      <a href="#">Work</a>
-      <a href="#">Contact</a>
-    </nav>
-
-    <img src="images/Ultralight/ultralight-beam.png" alt="image of the cover of the magazine" width="400px" class="ultralight-display">
-
-    <article class="title">
+    <article class="box has-shadow ultra-title">
       <h1>Ultralight Beam</h1>
 
       <div class="inside-box">
         <p>Editorial design</p>
       </div>
     </article>
-  
-    <div class="double-square"></div>
+
+    <img src="images/Ultralight/ultralight-beam.png" alt="image of the cover of the magazine" width="400px" class="ultralight-display">
+    
+    <nav class="box has-shadow ultra-nav">
+      <a href="#">About</a>
+      <a href="#">Work</a>
+      <a href="#">Contact</a>
+  </nav>
   </header>
 
   <!-- main with images of the magazine -->
   <main>
-    <article class="brief">
+    <article class="brief box has-shadow">
+      <h2>The brief</h2>
+
       <p>This project was part of a class in digital typography at Scuola Politecnica di Design (Milan). The brief:</p>
 
       <p><strong>Create a grid and use it to layout a cover and an article for a fictional art magazine.</strong></p>
     </article>
 
-    <div class="double-square"></div>
-
     <div class="pages">
-      <div class="2-mag">
-        <img src="images/Ultralight/pages1-2.png" alt="magazine's first two pages" width="200">
+      <div class="double-mag">
+        <img src="images/Ultralight/pages1-2-3.png" alt="magazine's first two pages" width="200" class="first-pages">
 
-        <img src="images/Ultralight/pages3-4.png" alt="next pages" width="200">
+        <img src="images/Ultralight/pages3-4.png" alt="next pages" width="200" class="second-pages">
       </div>
 
-      <img src="images/Ultralight/pages5-6.png" alt="magazine's last two pages" width="400">
+      <img src="images/Ultralight/pages5-6.png" alt="magazine's last two pages" width="400" class="third-pages">
     </div>
 
-    <section class="details">
-      <h4>On</h4>
+    <section class="box has-shadow details">
+      <h3>On</h3>
       <p>Adobe Indesign</p>
     </section>
   </main>
+
+  <footer>
+    <a href="#top"><img src="images/arrow.png" alt="black arrow" width="50" class="arrow-bottom"></a>
+    <a href="index.html"><img src="images/cross.png" alt="black cross" width="40" class="cross-bottom"></a>
+  </footer>
 </body>
 </html>
