@@ -1,49 +1,133 @@
 /* embed the fonts */
+
+/* -- DISPLAY FONTS -- */
 @font-face {
-  font-family: 'Fjalla One';
-  src: url('fonts/subset-FjallaOne-Regular.woff2') format('woff2'),
-      url('fonts/subset-FjallaOne-Regular.woff') format('woff');
+  font-family: 'Alegreya Sans';
+  src: url('AlegreyaSans-Black.woff2') format('woff2'),
+      url('AlegreyaSans-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: bold;
+}
+
+/* -- SECONDARY FONTS -- */
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('Nunito-ExtraBold.woff2') format('woff2'),
+      url('Nunito-ExtraBold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('Nunito-SemiBold.woff2') format('woff2'),
+      url('Nunito-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('Nunito-BoldItalic.woff2') format('woff2'),
+      url('Nunito-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('Nunito-SemiBold.woff2') format('woff2'),
+      url('Nunito-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('Nunito-ExtraBoldItalic.woff2') format('woff2'),
+      url('Nunito-ExtraBoldItalic.woff') format('woff');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('Nunito-Regular.woff2') format('woff2'),
+      url('Nunito-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'DINPro';
-  src: url('fonts/subset-DINPro-Bold.woff2') format('woff2'),
-      url('fonts/subset-DINPro-Bold.woff') format('woff');
+  font-family: 'Nunito';
+  src: url('Nunito-SemiBoldItalic.woff2') format('woff2'),
+      url('Nunito-SemiBoldItalic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('Nunito-LightItalic.woff2') format('woff2'),
+      url('Nunito-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('Nunito-ExtraLight.woff2') format('woff2'),
+      url('Nunito-ExtraLight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('Nunito-Bold.woff2') format('woff2'),
+      url('Nunito-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'DINPro';
-  src: url('fonts/subset-DINPro-Black.woff2') format('woff2'),
-      url('fonts/subset-DINPro-Black.woff') format('woff');
+  font-family: 'Nunito';
+  src: url('Nunito-Bold.woff2') format('woff2'),
+      url('Nunito-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('Nunito-BlackItalic.woff2') format('woff2'),
+      url('Nunito-BlackItalic.woff') format('woff');
   font-weight: 900;
-  font-style: normal;
+  font-style: italic;
 }
 
 @font-face {
-  font-family: 'DINPro';
-  src: url('fonts/subset-DINPro-Light.woff2') format('woff2'),
-      url('fonts/subset-DINPro-Light.woff') format('woff');
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'DINPro';
-  src: url('fonts/subset-DINPro-Regular.woff2') format('woff2'),
-      url('fonts/subset-DINPro-Regular.woff') format('woff');
+  font-family: 'Nunito';
+  src: url('Nunito-Italic.woff2') format('woff2'),
+      url('Nunito-Italic.woff') format('woff');
   font-weight: normal;
-  font-style: normal;
+  font-style: italic;
 }
 
 @font-face {
-  font-family: 'DINPro';
-  src: url('fonts/subset-DINPro-Medium.woff2') format('woff2'),
-      url('fonts/subset-DINPro-Medium.woff') format('woff');
-  font-weight: 500;
+  font-family: 'Nunito';
+  src: url('Nunito-ExtraLightItalic.woff2') format('woff2'),
+      url('Nunito-ExtraLightItalic.woff') format('woff');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('Nunito-Light.woff2') format('woff2'),
+      url('Nunito-Light.woff') format('woff');
+  font-weight: 300;
   font-style: normal;
 }
 
@@ -61,13 +145,14 @@ body {
   display: flex;
   flex-direction: column;
 
-  font-family: 'DINPro', sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 header {
   width: 100%;
   margin: 25px auto;
-  margin-bottom: 60px;
+  margin-bottom: 100px;
+
   display: flex;
   justify-content: space-between;
 }
@@ -76,18 +161,20 @@ h1 {
   max-width: 265px;
   margin-left: 60px;
 
-  font-family: 'Fjalla One', sans-serif;
-  font-size: 5em;
+  font-family: 'Alegreya Sans black', sans-serif;
+  font-size: 6em;
   line-height: 1em;
+  font-weight: bold;
 }
 
 h2 {
   margin-left: 60px;
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Alegreya Sans black', sans-serif;
+  font-size: 2em;
 }
 
 h3, .myName h4 {
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Alegreya Sans black', sans-serif;
 }
 
 nav {
@@ -146,7 +233,8 @@ nav a:first-child {
 }
 
 .myName:hover {
-  background-color: #74F9E9;
+  background-color: #7493F9;
+  color: white;
 }
 
 .myName h4 {
@@ -231,6 +319,22 @@ background-color: #9300FF;
 
 
 /* HOMEPAGE */
+.homeHeader {
+  margin-top: 0;
+  flex-direction: column;
+}
+
+.nameNav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.homeNav {
+  margin-left: 60px;
+}
+
 .info-wrapper {
   margin-top: 150px;
   margin-left: 20px;
@@ -276,6 +380,10 @@ main {
 }
 
 .selected-work {
+  margin-top: 100px;
+}
+
+.SelectedWorks {
   margin-top: 100px;
 }
 
@@ -336,7 +444,7 @@ main {
 
 .contact h2 {
   align-self: flex-start;
-  font-size: 3em;
+  font-size: 5em;
 }
 
 .contact p {
@@ -353,19 +461,19 @@ main {
 
 .phone {
   margin-top: 10px;
-  margin-left: -130px;
+  margin-left: -530px;
 }
 
 .email {
-  margin-right: 60px;
+  margin-right: -160px;
 }
 
 .behance {
-  margin-left: -130px;
+  margin-left: -400px;
 }
 
 .Linkedin {
-  margin-right: 60px;
+  margin-right: -260px;
 }
 
 .contact-info a {
@@ -409,6 +517,7 @@ main {
 .fork-title .inside-box {
   margin: 0;
 }
+
 .intro {
   margin-top: 100px;
 
@@ -416,6 +525,7 @@ main {
   flex-direction: column;
   align-items: center;
 }
+
 .brief {
   width: 80%;
   margin-bottom: 40px;
@@ -820,6 +930,7 @@ margin: 10px 150px;
 /* PROJECT 4 - FACTIX */
 
 .Factixtitle {
+  margin-top: -250px;
   margin-left: 60px;
   padding-top: 25px;
   padding-right: 100px;
@@ -833,8 +944,9 @@ margin: 10px 150px;
 }
 
 .FactixDisplay {
-  margin-top: 250px;
-  margin-left: -150px;
+  width: 50%;
+  margin-top: 220px;
+  margin-left: -350px;
 
   align-self: center;
 }
@@ -925,9 +1037,19 @@ margin: 10px 150px;
 }
 
 .Factixfor {
-  margin-left: 350px;
+  margin-left: 550px;
 }
 
 .Factixone {
-  margin-left: 60px;
+  margin-left: 160px;
+}
+
+/* Contact page */
+
+.contact-page {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
