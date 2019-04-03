@@ -66,7 +66,7 @@ body {
 
 header {
   width: 100%;
-  margin: 0 auto;
+  margin: 25px auto;
   margin-bottom: 60px;
   display: flex;
   justify-content: space-between;
@@ -86,13 +86,13 @@ h2 {
   font-family: 'Fjalla One', sans-serif;
 }
 
-h3 {
+h3, .myName h4 {
   font-family: 'Fjalla One', sans-serif;
 }
 
 nav {
   max-width: 150px;
-  margin-top: 40px;
+  margin-top: 60px;
   margin-right: 60px;
   padding: 35px 30px;
 
@@ -132,6 +132,28 @@ nav a:first-child {
   float: right;
 }
 
+.myName {
+  width: 100%;
+  padding: 10px 0;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.myName:hover {
+  background-color: #74F9E9;
+}
+
+.myName h4 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
 footer {
   margin-top: 100px;
   display: flex;
@@ -155,8 +177,58 @@ footer {
   left: 10px;
   z-index: -1;
 
-  border: 2px solid #00FFE2;
+  border: 2px solid black;
 }
+
+.has-shadow:hover:after {
+  background-color: #74F9E9;
+}
+
+.has-shadowNav:hover:after {
+  background-color: #FF1414;
+}
+
+.has-shadowInfoOne:hover:after {
+  background-color: #74F9E9;
+}
+
+.has-shadowInfoTwo:hover:after {
+  background-color: #FF05BC;
+}
+
+.has-shadowInfoThree:hover:after {
+  background-color: #F6FF0A;
+}
+
+.has-shadow-var:hover:after {
+  background-color: #0AFFAA;
+}
+
+.has-shadow-varTwo:hover:after {
+  background-color: #260AFF;
+}
+
+.has-shadow-varThree:hover:after {
+background-color: #9300FF;
+}
+
+
+.has-shadowFork:hover:after {
+  background-color: #1CF490;
+}
+
+.has-shadowFendi:hover:after {
+  background-color: #faba4a;
+}
+
+.has-shadowUltra:hover:after {
+  background-color: #F93C72;
+}
+
+.has-shadowFactix:hover:after {
+  background-color: #829CF3;
+}
+
 
 /* HOMEPAGE */
 .info-wrapper {
