@@ -3,8 +3,8 @@
 /* -- DISPLAY FONTS -- */
 @font-face {
   font-family: 'Alegreya Sans';
-  src: url('AlegreyaSans-Black.woff2') format('woff2'),
-      url('AlegreyaSans-Black.woff') format('woff');
+  src: url('/fonts/AlegreyaSans-Black.woff') format('woff2'),
+      url('/fonts/AlegreyaSans-Black.woff') format('woff');
   font-weight: 900;
   font-style: bold;
 }
