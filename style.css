@@ -3,10 +3,114 @@
 /* -- DISPLAY FONTS -- */
 @font-face {
   font-family: 'Alegreya Sans';
-  src: url('/fonts/AlegreyaSans-Black.woff') format('woff2'),
-      url('/fonts/AlegreyaSans-Black.woff') format('woff');
+  src: url('AlegreyaSans-Black.woff2') format('woff2'),
+      url('AlegreyaSans-Black.woff') format('woff');
   font-weight: 900;
   font-style: bold;
+}
+
+@font-face {
+  font-family: 'Alegreya Sans';
+  src: url('AlegreyaSans-MediumItalic.woff2') format('woff2'),
+      url('AlegreyaSans-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Alegreya Sans';
+  src: url('AlegreyaSans-BoldItalic.woff2') format('woff2'),
+      url('AlegreyaSans-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Alegreya Sans';
+  src: url('AlegreyaSans-ExtraBoldItalic.woff2') format('woff2'),
+      url('AlegreyaSans-ExtraBoldItalic.woff') format('woff');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Alegreya Sans';
+  src: url('AlegreyaSans-Medium.woff2') format('woff2'),
+      url('AlegreyaSans-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Alegreya Sans';
+  src: url('AlegreyaSans-Regular.woff2') format('woff2'),
+      url('AlegreyaSans-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Alegreya Sans';
+  src: url('AlegreyaSans-Bold.woff2') format('woff2'),
+      url('AlegreyaSans-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Alegreya Sans';
+  src: url('AlegreyaSans-BlackItalic.woff2') format('woff2'),
+      url('AlegreyaSans-BlackItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Alegreya Sans';
+  src: url('AlegreyaSans-LightItalic.woff2') format('woff2'),
+      url('AlegreyaSans-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Alegreya Sans';
+  src: url('AlegreyaSans-Thin.woff2') format('woff2'),
+      url('AlegreyaSans-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Alegreya Sans';
+  src: url('AlegreyaSans-ThinItalic.woff2') format('woff2'),
+      url('AlegreyaSans-ThinItalic.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Alegreya Sans';
+  src: url('AlegreyaSans-Light.woff2') format('woff2'),
+      url('AlegreyaSans-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Alegreya Sans';
+  src: url('AlegreyaSans-ExtraBold.woff2') format('woff2'),
+      url('AlegreyaSans-ExtraBold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Alegreya Sans';
+  src: url('AlegreyaSans-Italic.woff2') format('woff2'),
+      url('AlegreyaSans-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
 }
 
 /* -- SECONDARY FONTS -- */
@@ -132,6 +236,7 @@
 }
 
 
+
 /* base */
 * {
   box-sizing: border-box;
@@ -198,6 +303,10 @@ nav a {
 
 nav a:first-child {
   padding-top: 0;
+}
+
+nav a:hover {
+  font-style: oblique;
 }
 
 .box {
@@ -306,7 +415,7 @@ background-color: #9300FF;
 }
 
 .has-shadowFendi:hover:after {
-  background-color: #faba4a;
+  background-color: #1A2EC8;
 }
 
 .has-shadowUltra:hover:after {
@@ -324,6 +433,11 @@ background-color: #9300FF;
   flex-direction: column;
 }
 
+#myName {
+  margin-top: 50px;
+  font-size: 8em;
+}
+
 .nameNav {
   width: 100%;
   display: flex;
@@ -336,7 +450,7 @@ background-color: #9300FF;
 }
 
 .info-wrapper {
-  margin-top: 150px;
+  margin-top: 105px;
   margin-left: 20px;
   margin-right: 20px;
 
@@ -821,7 +935,17 @@ main {
 }
 
 .cards {
-margin: 10px 150px;
+  margin: 10px 150px;
+
+}
+
+.card1 {
+  width: 70%;
+  margin-left: 150px;
+}
+
+.card2 {
+  width: 70%;
 }
 
 .ipads {
@@ -834,12 +958,14 @@ margin: 10px 150px;
 }
 
 .homepage {
+  width: 40%;
   margin-left: 100px;
 }
 
 .custom {
-  margin-top: 100px;
-  margin-left: 200px;
+  width: 70%;
+  margin-top: 80px;
+  margin-left: 300px;
 }
 
 .fendi-details {
