@@ -520,6 +520,19 @@ main {
   align-self: flex-start;
 }
 
+.Fendi {
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.linkFendi {
+  margin-left: 150px;
+}
+
+.Fendi img {
+  margin-left: -80px;
+}
+
 .project-name {
   margin-top: -100px;
   margin-left: -80px;
