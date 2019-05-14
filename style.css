@@ -80,15 +80,14 @@
        url('../fonts/alegreya-sans-v9-latin-900italic.svg#AlegreyaSans') format('svg'); /* Legacy iOS */
 }
 
-
-/* -- DISPLAY FONTS -- */
-
-
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans');
+
+@import url("https://use.typekit.net/xjr7bpn.css");
 
 /* -- SECONDARY FONTS -- */
 
 @import url('https://fonts.googleapis.com/css?family=Nunito');
+
 
 /* base */
 * {
@@ -122,10 +121,10 @@ h1 {
   max-width: 265px;
   margin-left: 60px;
 
-  font-family: 'Alegreya Sans Black' , sans-serif;
+  font-family: 'Alegreya Sans Black', sans-serif;
   font-size: 6em;
   line-height: 1em;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 h2 {
