@@ -108,7 +108,7 @@ body {
 
 header {
   width: 100%;
-  margin: 25px auto;
+  margin: 2em auto;
   margin-bottom: 100px;
 }
 
@@ -118,17 +118,17 @@ header {
 }
 
 h1 {
-  max-width: 265px;
   margin-left: 60px;
 
   font-family: 'Alegreya Sans Black', sans-serif;
   font-size: 6em;
   line-height: 1em;
   font-weight: 700;
+  z-index: 1;
 }
 
 h2 {
-  margin-left: 60px;
+  margin-left: 2em;
   font-family: 'Alegreya Sans Black', sans-serif;
   font-size: 2em;
 }
@@ -138,10 +138,11 @@ h3, .myName h4 {
 }
 
 nav {
-  max-width: 150px;
-  margin-top: 60px;
-  margin-right: 60px;
-  padding: 35px 30px;
+  width: 10em;
+  margin-top: 4em;
+  margin-right: 3em;
+  /* margin-left: -20em; */
+  padding: 2em;
 
   display: flex;
   flex-direction: column;
@@ -149,8 +150,8 @@ nav {
 }
 
 nav a {
-  padding-top: 35px;
-  padding-right: 30px;
+  padding-top: 2em;
+  padding-right: 2em;
 
   text-decoration: none;
   color: black;
@@ -757,21 +758,25 @@ main {
 } 
 
 .FendiHeader img {
-  width: 50%;
-  margin-top: 250px;
-  margin-left: -150px;
+  width: 35em;
+  margin-top: 18em;
+  margin-left: -12em;
 }
 
 .title {
-  margin-top: -200px;
-  margin-left: 40px;
-  padding-top: 25px;
-  padding-right: 150px;
-  padding-left: 25px;
+  margin-top: -16em;
+  margin-left: 4em;
+  padding-top: 2em;
+  padding-right: 4em;
+  padding-left: 2em;
 }
 
 .title h1 {
   margin: 0;
+}
+
+.FendiNav {
+  margin-left: -60px;
 }
 
 .thebrief {
@@ -780,7 +785,7 @@ main {
 }
 
 .fendistyle {
-  margin-top: 50px;
+  margin-top: 3em;
   width: 100%;
 }
 
@@ -791,11 +796,11 @@ main {
 }
 
 .style-intro .box {
-  max-width: 500px;
-  margin-right: 60px;
-  padding-top: 25px;
-  padding-right: 150px;
-  padding-left: 25px;
+  width: 30em;
+  margin-right: 5em;
+  padding-top: 2em;
+  padding-right: 4em;
+  padding-left: 2em;
 }
 
 .style-intro h2 {
@@ -803,7 +808,7 @@ main {
 }
 
 .quote {
-  margin: 100px auto;
+  margin: 9em auto;
 }
 
 .grey {
@@ -811,7 +816,7 @@ main {
 }
 
 .grey p {
-  margin-left: 360px;
+  margin-left: calc(100% - 100px);
 
   color: #faba4a;
   font-weight: 500;
@@ -822,8 +827,8 @@ main {
 }
 
 .yellow p {
-  margin-top: 115px;
-  margin-left: 10px;
+  margin-top: calc(9em - 20px);
+  margin-left: calc(10% - 40px);
 
   color: #343a41;
   font-weight: 500;
@@ -831,9 +836,9 @@ main {
 
 .cards-and-icons {
   width: 100%;
-  padding-top: 150px;
-  padding-bottom: 150px;
-  margin-top: 50px;
+  padding-top: 10em;
+  padding-bottom: 10em;
+  margin-top: 5em;
 
   display: flex;
   justify-content: center;
@@ -847,37 +852,37 @@ main {
 }
 
 .cards {
-  margin: 10px 150px;
+  margin: 1em 10em;
 
 }
 
 .card1 {
-  width: 70%;
-  margin-left: 150px;
+  width: 20em;
+  margin-left: 10em;
 }
 
 .card2 {
-  width: 70%;
+  width: 25em;
 }
 
 .ipads {
   margin-top: 0px;
   width: 100%;
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 10em;
+  padding-bottom: 10em;
 
   background-color: #faba4a;
 }
 
 .homepage {
   width: 40%;
-  margin-left: 100px;
+  margin-left: 9em;
 }
 
 .custom {
   width: 70%;
-  margin-top: 80px;
-  margin-left: 300px;
+  margin-top: 6em;
+  margin-left: 16em;
 }
 
 .fendi-details {
@@ -887,38 +892,41 @@ main {
 /* PROJECT 3 - ULTRALIGHT */
 
 .ultralight-display {
-  width: 50%;
-  margin-top: 250px;
-  margin-left: -450px;
+  width: 38em;
+  margin-top: 24em;
+  margin-left: -22em;
 
   align-self: center;
+  flex-grow: .2;
+  flex-shrink: 1;
 }
 
 .ultra-title {
-  margin-left: 60px;
-  margin-top: -250px;
-  padding-top: 25px;
-  padding-right: 150px;
+  margin-left: 4em;
+  margin-top: -12em;
+  padding-top: 2em;
+  padding-right: 12em;
   padding-left: 25px;
 
   align-self: center;
 }
 
 .ultra-title h1 {
+  width: 3em;
   margin: 0;
 }
 
 .ultra-nav {
-  margin-left: -150px;
+  margin-left: -10em;
 }
 
 .brief {
-  margin: 50px auto;
+  margin: 3em auto;
 }
 
 .pages {
   width: 100%;
-  padding-top: 50px;
+  padding-top: 4em;
 
   display: flex;
   flex-direction: column;
@@ -954,11 +962,11 @@ main {
 
 .details {
   width: 50%;
-  margin-bottom: 40px;
-  margin-left: 60px;
-  padding-top: 25px;
-  padding-right: 100px;
-  padding-left: 25px;
+  margin-bottom: 3em;
+  margin-left: 8em;
+  padding-top: 2em;
+  padding-right: 20em;
+  padding-left: 2em;
 }
 
 .details h3 {
