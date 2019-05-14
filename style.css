@@ -976,7 +976,7 @@ main {
 /* PROJECT 4 - FACTIX */
 
 .Factixtitle {
-  margin-top: -250px;
+  margin-top: -12em;
   margin-left: 60px;
   padding-top: 25px;
   padding-right: 100px;
@@ -991,7 +991,7 @@ main {
 
 .FactixDisplay {
   width: 50%;
-  margin-top: 220px;
+  margin-top: 18em;
   margin-left: -350px;
 
   align-self: center;
@@ -1096,4 +1096,184 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.contactTitle {
+  color: #7493F9;
+}
+
+
+/************
+MEDIA QUERIES
+*************/
+
+@media(max-width: 1055px) {
+
+  /* HOMEPAGE */
+  h1, #myName {
+    font-size: 8em;
+    max-width: 250px;
+  }
+
+  .TheFork .project-name, .Ultralight .project-name, .has-shadowFactix {
+    margin-right: 6em;
+  }
+
+  .Fendi img {
+    margin-right: 4em;
+  }
+
+  .Fendi .project-name {
+    margin-right: 5px;
+  }
+
+  #contact h2 {
+    margin-right: -25px;
+  }
+
+  #contact .phone {
+    margin-left: 5px;
+  }
+
+  #contact .behance {
+    margin-left: 10px;
+  }
+
+  .theForkDisplay, .Fendi-display, .ultralight-display, .FactixDisplay {
+    width: 50%;
+  }
+}
+
+@media(max-width: 880px) {
+  .contact-page .contact-info {
+    margin: 2em auto;
+  }
+}
+
+@media(max-width: 780px) {
+
+  /* HOMEPAGE */
+
+  h1, #myName {
+    margin: 0;
+    margin-top: 1em;
+    margin-left: .5em;
+
+    font-size: 4em;
+    max-width: 250px;
+  }
+
+  nav, .homeNav {
+    width: 110px;
+    margin-left: 25px;
+    padding: 1em;
+  }
+
+  nav a, .homeNav a {
+    padding: .5em;
+  }
+
+  .info-box {
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .selected-work {
+    margin: 0;
+  }
+
+  .works-title {
+    margin: 5px auto;
+
+    font-size: 2em;
+  }
+
+  .TheFork .project-name, .Ultralight .project-name, .Fendi .project-name, .has-shadowFactix {
+    width: 160px;
+    padding: 10px;
+    padding-right: 20px;
+  }
+
+  .Fendi .project-name {
+    margin-left: -70px;
+  }
+
+  .project-name h3 {
+    font-size: 1.5em;
+  }
+
+  .Fendi img {
+    margin-right: 100px;
+  }
+
+  #contact h2 {
+    font-size: 4em;
+  }
+
+  .contact-info {
+    padding: 10px;
+  }
+
+  .contact-info p {
+    margin: 20px 5px 10px 20px;
+  }
+
+  .contact-info.email {
+    margin-right: -80px;
+  }
+
+  .contact-info.Linkedin {
+    margin-right: 50px;
+  }
+
+  .contact-page .contact-info {
+    margin: 2em auto;
+  }
+}
+
+@media(max-width: 425px) {
+  body {
+    font-size: .8em;
+  }
+
+  .has-shadowInfoOne{
+    width: 100px;
+  }
+
+  .TheFork, .Ultralight {
+    margin-right: 0;
+  }
+
+  .TheFork .project-name, .Ultralight .project-name, .has-shadowFactix {
+    width: 120px;
+    margin-right: 1em;
+    padding: 10px;
+  }
+
+  .Ultralight .project-name p, .Ultralight .project-name h3 {
+    padding-right: 30px;
+  }
+
+  .Fendi img {
+    margin-left: -100px;
+  }
+
+  .Fendi .project-name {
+    margin-top: -140px;
+  }
+
+  .contact-info.email {
+    margin-right: -30px;
+  }
+
+  .contact-page .contact-info {
+    margin: 2em auto;
+  }
+}
+
+@media(max-width: 1020px) {
+  .has-shadowFork.with, .has-shadowFork.on {
+    margin-left: 400px;
+  }
 }
