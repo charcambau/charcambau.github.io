@@ -112,6 +112,7 @@
   font-style: italic;
 }*/
 
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans');
 
 /* -- SECONDARY FONTS -- */
 
@@ -269,20 +270,20 @@ h1 {
   max-width: 265px;
   margin-left: 60px;
 
-  font-family: 'Alegreya Sans black', sans-serif;
+  font-family: 'Alegreya Sans Black' , sans-serif;
   font-size: 6em;
   line-height: 1em;
-  font-weight: bold;
+  font-weight: 900;
 }
 
 h2 {
   margin-left: 60px;
-  font-family: 'Alegreya Sans black', sans-serif;
+  font-family: 'Alegreya Sans Black', sans-serif;
   font-size: 2em;
 }
 
 h3, .myName h4 {
-  font-family: 'Alegreya Sans black', sans-serif;
+  font-family: 'Alegreya Sans Black', sans-serif;
 }
 
 nav {
