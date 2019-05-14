@@ -258,7 +258,9 @@ header {
   width: 100%;
   margin: 25px auto;
   margin-bottom: 100px;
+}
 
+.project-header {
   display: flex;
   justify-content: space-between;
 }
@@ -360,7 +362,10 @@ footer {
   padding: 25px 60px;
 }
 
+/* ********************* */
 /* shadow pseudo element */
+/* ********************* */
+
 .has-shadow {
   position: relative;
 }
@@ -895,9 +900,9 @@ main {
 
 /* PROJECT TWO : FENDI */
 
-.FendiHeader {
+.project-header {
   align-items: center;
-}
+} 
 
 .FendiHeader img {
   width: 50%;
