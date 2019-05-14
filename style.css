@@ -3,115 +3,115 @@
 /* -- DISPLAY FONTS -- */
 @font-face {
   font-family: 'Alegreya Sans';
-  src: url('AlegreyaSans-Black.woff2') format('woff2'),
-      url('AlegreyaSans-Black.woff') format('woff');
+  src: url('../charcambau.github.io/fonts/AlegreyaSans-Black.woff2') format('woff2'),
+      url('../charcambau.github.io/fonts/AlegreyaSans-Black.woff') format('woff');
   font-weight: 900;
-  font-style: bold;
 }
 
 @font-face {
   font-family: 'Alegreya Sans';
-  src: url('AlegreyaSans-MediumItalic.woff2') format('woff2'),
-      url('AlegreyaSans-MediumItalic.woff') format('woff');
+  src: url('../fonts/AlegreyaSans-MediumItalic.woff2') format('woff2'),
+      url('../fonts/AlegreyaSans-MediumItalic.woff') format('woff');
   font-weight: 500;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Alegreya Sans';
-  src: url('AlegreyaSans-BoldItalic.woff2') format('woff2'),
-      url('AlegreyaSans-BoldItalic.woff') format('woff');
+  src: url('../fonts/AlegreyaSans-BoldItalic.woff2') format('woff2'),
+      url('../fonts/AlegreyaSans-BoldItalic.woff') format('woff');
   font-weight: bold;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Alegreya Sans';
-  src: url('AlegreyaSans-ExtraBoldItalic.woff2') format('woff2'),
-      url('AlegreyaSans-ExtraBoldItalic.woff') format('woff');
+  src: url('../fonts/AlegreyaSans-ExtraBoldItalic.woff2') format('woff2'),
+      url('../fonts/AlegreyaSans-ExtraBoldItalic.woff') format('woff');
   font-weight: 800;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Alegreya Sans';
-  src: url('AlegreyaSans-Medium.woff2') format('woff2'),
-      url('AlegreyaSans-Medium.woff') format('woff');
+  src: url('../fonts/AlegreyaSans-Medium.woff2') format('woff2'),
+      url('../fonts/AlegreyaSans-Medium.woff') format('woff');
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Alegreya Sans';
-  src: url('AlegreyaSans-Regular.woff2') format('woff2'),
-      url('AlegreyaSans-Regular.woff') format('woff');
+  src: url('../fonts/AlegreyaSans-Regular.woff2') format('woff2'),
+      url('../fonts/AlegreyaSans-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Alegreya Sans';
-  src: url('AlegreyaSans-Bold.woff2') format('woff2'),
-      url('AlegreyaSans-Bold.woff') format('woff');
+  src: url('../fonts/AlegreyaSans-Bold.woff2') format('woff2'),
+      url('../fonts/AlegreyaSans-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Alegreya Sans';
-  src: url('AlegreyaSans-BlackItalic.woff2') format('woff2'),
-      url('AlegreyaSans-BlackItalic.woff') format('woff');
+  src: url('../fonts/AlegreyaSans-BlackItalic.woff2') format('woff2'),
+      url('../fonts/AlegreyaSans-BlackItalic.woff') format('woff');
   font-weight: 900;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Alegreya Sans';
-  src: url('AlegreyaSans-LightItalic.woff2') format('woff2'),
-      url('AlegreyaSans-LightItalic.woff') format('woff');
+  src: url('../fonts/AlegreyaSans-LightItalic.woff2') format('woff2'),
+      url('../fonts/AlegreyaSans-LightItalic.woff') format('woff');
   font-weight: 300;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Alegreya Sans';
-  src: url('AlegreyaSans-Thin.woff2') format('woff2'),
-      url('AlegreyaSans-Thin.woff') format('woff');
+  src: url('../fonts/AlegreyaSans-Thin.woff2') format('woff2'),
+      url('../fonts/AlegreyaSans-Thin.woff') format('woff');
   font-weight: 100;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Alegreya Sans';
-  src: url('AlegreyaSans-ThinItalic.woff2') format('woff2'),
-      url('AlegreyaSans-ThinItalic.woff') format('woff');
+  src: url('../fonts/AlegreyaSans-ThinItalic.woff2') format('woff2'),
+      url('../fonts/AlegreyaSans-ThinItalic.woff') format('woff');
   font-weight: 100;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Alegreya Sans';
-  src: url('AlegreyaSans-Light.woff2') format('woff2'),
-      url('AlegreyaSans-Light.woff') format('woff');
+  src: url('..fonts/AlegreyaSans-Light.woff2') format('woff2'),
+      url('../fonts/AlegreyaSans-Light.woff') format('woff');
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Alegreya Sans';
-  src: url('AlegreyaSans-ExtraBold.woff2') format('woff2'),
-      url('AlegreyaSans-ExtraBold.woff') format('woff');
+  src: url('../fonts/AlegreyaSans-ExtraBold.woff2') format('woff2'),
+      url('../fonts/AlegreyaSans-ExtraBold.woff') format('woff');
   font-weight: 800;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Alegreya Sans';
-  src: url('AlegreyaSans-Italic.woff2') format('woff2'),
-      url('AlegreyaSans-Italic.woff') format('woff');
+  src: url('../fonts/AlegreyaSans-Italic.woff2') format('woff2'),
+      url('../fonts/AlegreyaSans-Italic.woff') format('woff');
   font-weight: normal;
   font-style: italic;
 }
+
 
 /* -- SECONDARY FONTS -- */
 
@@ -125,112 +125,112 @@
 
 @font-face {
   font-family: 'Nunito';
-  src: url('Nunito-SemiBold.woff2') format('woff2'),
-      url('Nunito-SemiBold.woff') format('woff');
+  src: url('../fonts/Nunito-SemiBold.woff2') format('woff2'),
+      url('../fonts/Nunito-SemiBold.woff') format('woff');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Nunito';
-  src: url('Nunito-BoldItalic.woff2') format('woff2'),
-      url('Nunito-BoldItalic.woff') format('woff');
+  src: url('../fonts/Nunito-BoldItalic.woff2') format('woff2'),
+      url('../fonts/Nunito-BoldItalic.woff') format('woff');
   font-weight: bold;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Nunito';
-  src: url('Nunito-SemiBold.woff2') format('woff2'),
-      url('Nunito-SemiBold.woff') format('woff');
+  src: url('../fonts/Nunito-SemiBold.woff2') format('woff2'),
+      url('../fonts/Nunito-SemiBold.woff') format('woff');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Nunito';
-  src: url('Nunito-ExtraBoldItalic.woff2') format('woff2'),
-      url('Nunito-ExtraBoldItalic.woff') format('woff');
+  src: url('../fonts/Nunito-ExtraBoldItalic.woff2') format('woff2'),
+      url('../fonts/Nunito-ExtraBoldItalic.woff') format('woff');
   font-weight: 800;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Nunito';
-  src: url('Nunito-Regular.woff2') format('woff2'),
-      url('Nunito-Regular.woff') format('woff');
+  src: url('../fonts/Nunito-Regular.woff2') format('woff2'),
+      url('../fonts/Nunito-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Nunito';
-  src: url('Nunito-SemiBoldItalic.woff2') format('woff2'),
-      url('Nunito-SemiBoldItalic.woff') format('woff');
+  src: url('../fonts/Nunito-SemiBoldItalic.woff2') format('woff2'),
+      url('../fonts/Nunito-SemiBoldItalic.woff') format('woff');
   font-weight: 600;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Nunito';
-  src: url('Nunito-LightItalic.woff2') format('woff2'),
-      url('Nunito-LightItalic.woff') format('woff');
+  src: url('../fonts/Nunito-LightItalic.woff2') format('woff2'),
+      url('../fonts/Nunito-LightItalic.woff') format('woff');
   font-weight: 300;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Nunito';
-  src: url('Nunito-ExtraLight.woff2') format('woff2'),
-      url('Nunito-ExtraLight.woff') format('woff');
+  src: url('../fonts/Nunito-ExtraLight.woff2') format('woff2'),
+      url('../fonts/Nunito-ExtraLight.woff') format('woff');
   font-weight: 200;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Nunito';
-  src: url('Nunito-Bold.woff2') format('woff2'),
-      url('Nunito-Bold.woff') format('woff');
+  src: url('../fonts/Nunito-Bold.woff2') format('woff2'),
+      url('../fonts/Nunito-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Nunito';
-  src: url('Nunito-Bold.woff2') format('woff2'),
-      url('Nunito-Bold.woff') format('woff');
+  src: url('../fonts/Nunito-Bold.woff2') format('woff2'),
+      url('../fonts/Nunito-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Nunito';
-  src: url('Nunito-BlackItalic.woff2') format('woff2'),
-      url('Nunito-BlackItalic.woff') format('woff');
+  src: url('../fonts/Nunito-BlackItalic.woff2') format('woff2'),
+      url('../fonts/Nunito-BlackItalic.woff') format('woff');
   font-weight: 900;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Nunito';
-  src: url('Nunito-Italic.woff2') format('woff2'),
-      url('Nunito-Italic.woff') format('woff');
+  src: url('../fonts/Nunito-Italic.woff2') format('woff2'),
+      url('../fonts/Nunito-Italic.woff') format('woff');
   font-weight: normal;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Nunito';
-  src: url('Nunito-ExtraLightItalic.woff2') format('woff2'),
-      url('Nunito-ExtraLightItalic.woff') format('woff');
+  src: url('../fonts/Nunito-ExtraLightItalic.woff2') format('woff2'),
+      url('../fonts/Nunito-ExtraLightItalic.woff') format('woff');
   font-weight: 200;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Nunito';
-  src: url('Nunito-Light.woff2') format('woff2'),
-      url('Nunito-Light.woff') format('woff');
+  src: url('../fonts/Nunito-Light.woff2') format('woff2'),
+      url('../fonts/Nunito-Light.woff') format('woff');
   font-weight: 300;
   font-style: normal;
 }
@@ -439,7 +439,8 @@ background-color: #9300FF;
   margin-top: 30px;
   margin-bottom: -50px;
   font-size: 12em;
-  color: rgb(160, 174, 255);
+  /* color: rgb(160, 174, 255); */
+  color: rgb(231,83,76);
 }
 
 .nameNav {
@@ -654,20 +655,21 @@ main {
 
 /* PROJECT ONE : THE FORK */
 .theForkDisplay {
-  width: 50%;
+  width: 40em;
   margin-top: 18em;
   margin-left: -18em;
 
   align-self: flex-start;
+  flex-shrink: 1;
 }
 
 .forkNav{
-  margin-left: -10%;
+  margin-left: -10em;
 }
 
 .fork-title {
-  margin-top: 10%;
-  margin-left: 5%;
+  margin-top: 8em;
+  margin-left: 4em;
   padding-top: 2em;
   padding-right: 4em;
   padding-left: 2em;
@@ -684,7 +686,7 @@ main {
 }
 
 .intro {
-  margin-top: 100px;
+  margin-top: 6em;
 
   display: flex;
   flex-direction: column;
@@ -693,11 +695,11 @@ main {
 
 .brief {
   width: 80%;
-  margin-bottom: 40px;
-  padding-top: 25px;
-  padding-right: 100px;
-  padding-bottom: 25px;
-  padding-left: 25px;
+  margin-bottom: 3em;
+  padding-top: 2em;
+  padding-right: 3em;
+  padding-bottom: 2em;
+  padding-left: 2em;
 }
 
 .brief h2, .challenge h2, .style-container h2 {
@@ -707,7 +709,7 @@ main {
 
 .challenge {
   width: 100%;
-  margin-top: 150px;
+  margin-top: 8em;
 
   display: flex;
   align-items: flex-start;
@@ -715,20 +717,20 @@ main {
 
 .challenge .box {
   width: 40%;
-  margin: 10px auto;
-  padding-top: 25px;
-  padding-right: 100px;
-  padding-bottom: 25px;
-  padding-left: 25px;
+  margin: 1em auto;
+  padding-top: 2em;
+  padding-right: 3em;
+  padding-bottom: 2em;
+  padding-left: 2em;
 }
 
 .challenge img {
-  width: 30%;
+  width: 15em;
   margin: 10px auto;
 }
 
 .style {
-  margin-top: 150px;
+  margin-top: 10em;
 
   display: flex;
   flex-direction: column;
@@ -744,16 +746,16 @@ main {
 }
 
 .style-description {
-  margin-right: 60px;
-  margin-left: 600px;
-  padding-top: 25px;
-  padding-right: 100px;
-  padding-bottom: 25px;
-  padding-left: 25px;
+  margin-right: 5em;
+  margin-left: 40em;
+  padding-top: 2em;
+  padding-right: 5em;
+  padding-bottom: 2em;
+  padding-left: 2em;
 }
 
 .rectangles {
-  margin-top: 100px;
+  margin-top: 6em;
   width: 100%;
 
   display: flex;
@@ -762,7 +764,7 @@ main {
 
 .rec {
   width: 50%;
-  height: 150px;
+  height: 10em;
 }
 
 .purple {
@@ -774,7 +776,7 @@ main {
 }
 
 .purple p {
-  margin-left: 300px;
+  margin-left: calc(100% - 100px);
 }
 
 .green {
@@ -784,14 +786,14 @@ main {
 }
 
 .green p {
-  margin-top: 115px;
-  margin-left: 10px;
+  margin-top: calc(10em - 30px);
+  margin-left: calc(10% - 20px);
 }
 
 .elements {
   width: 100%;
-  height: 150px;
-  margin-top: 250px;
+  height: 9em;
+  margin-top: 15em;
 
   display: flex;
   align-items: center;
@@ -803,20 +805,21 @@ main {
 }
 
 .card {
-  width: 30%;
-  margin-top: -200px;
-  margin-left: 250px;
+  width: 22em;
+  margin-top: -15em;
+  margin-left: 22em;
 
   order: 1;
 }
 
 .brekky {
-  width: 30%;
-  margin-top: 220px;
+  width: 22em;
+  margin-top: 17em;
+  margin-right: -22em;
 }
 
 .ux {
-  margin-top: 200px;
+  margin-top: 24em;
 }
 
 .ux h2 {
