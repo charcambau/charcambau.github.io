@@ -1189,11 +1189,12 @@ MEDIA QUERIES
   }
 
   .FendiHeader img {
-    margin-top: 300px;
+    margin-top: 400px;
   }
 
   .FendiHeader .title {
     margin-top: -20px;
+    padding-right: 8em;
   }
 
   .card1, .card2 {
@@ -1261,6 +1262,9 @@ MEDIA QUERIES
     width: 90%;
   }
 
+  .quote {
+    width: 80%;
+  }
 }
 
 @media(max-width: 880px) {
@@ -1498,6 +1502,7 @@ MEDIA QUERIES
   .theForkDisplay {
     margin-top: 320px;
     margin-left: -180px;
+    width: 100%;
   }
 
   .details .box {
@@ -1506,5 +1511,9 @@ MEDIA QUERIES
 
   #Fendi-footer {
     margin-top: 50px;
+  }
+
+  .FendiHeader .title {
+    margin-top: 70px;
   }
 }
