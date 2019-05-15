@@ -881,20 +881,31 @@ main {
 }
 
 .first-pages, .second-pages {
-  width: 40%;
+  width: 60%;
 }
 
 .first-pages {
-  margin-left: 60px;
+  margin-left: -40px;
 }
 
 .second-pages {
-  margin-right: 60px;
+  margin-left: -210px;
 }
 
 .third-pages {
   margin-top: 50px;
   width: 100%;
+}
+
+.img-pink {
+  width: 100%;
+  background-image: url(images/Ultralight/6.jpg);
+}
+
+.img-red {
+  width: 100%;
+  background-image: url(images/Ultralight/4.jpg);
+  background-size: contain;
 }
 
 .details {
@@ -994,7 +1005,7 @@ main {
 }
 
 .ten-deep .browser, .a-cold-wall .browser {
-  width: 110%;
+  width: 80%;
 }
 
 .a-cold-wall {
@@ -1304,7 +1315,7 @@ MEDIA QUERIES
 
   }
 
-  .TheFork .project-name, .Ultralight .project-name, .has-shadowFactix, .Fendi .project-name {
+  .TheFork .project-name, .Ultralight .project-name, .has-shadowFactix.project-name, .Fendi .project-name {
     width: 80%;
     margin: 0;
     margin-top: -80px;
@@ -1327,6 +1338,18 @@ MEDIA QUERIES
 
   .Factix {
     background-color: #2e2b38;
+  }
+
+  .has-shadowFactix.Factixtitle {
+    padding-right: 50px;
+  }
+
+  .Factixnav {
+    margin-left: -70px;
+  }
+
+  .Factixdesign {
+    margin-left: 30px;
   }
 }
 
@@ -1424,8 +1447,8 @@ MEDIA QUERIES
 
   .theForkDisplay {
     margin-top: 320px;
-    margin-left: -180px;
-    width: 100%;
+    margin-left: -200px;
+    width: 70%;
   }
 
   .details .box {
@@ -1437,6 +1460,23 @@ MEDIA QUERIES
   }
 
   .FendiHeader .title {
-    margin-top: 70px;
+    margin-top: 160px;
+  }
+
+  .project-header {
+    height: 350px;
+  }
+
+  .ultra-title {
+    margin-top: 170px;
+  }
+
+  .ultralight-display {
+    margin-top: 410px;
+    margin-left: -100px;
+  }
+
+  .has-shadowUltra.details {
+    margin-left: 50px;
   }
 }
