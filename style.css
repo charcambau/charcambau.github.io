@@ -157,7 +157,7 @@ footer {
   z-index: -1;
 
   border: 2px solid black;
-  background-color: rgb(250,248,248);
+  background-color: #FAF8F8;
 }
 
 .has-shadow:hover:after {
@@ -221,7 +221,7 @@ background-color: #9300FF;
   margin-bottom: -50px;
   font-size: 12em;
   /* color: rgb(160, 174, 255); */
-  color: rgb(231,83,76);
+  color: #E7534C;
 }
 
 .nameNav {
@@ -296,7 +296,7 @@ main {
 
 .works-title {
   text-decoration: none;
-  color: rgb(138,183,232);
+  color: #8AB7E8;
   font-size: 3em;
 
   z-index: 1;
