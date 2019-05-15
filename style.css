@@ -348,6 +348,10 @@ background-color: #9300FF;
   background-color: black;
 }
 
+.has-shadowInfoFour {
+  display: none;
+}
+
 .arrow-down {
   margin-top: 60px;
 }
@@ -1148,7 +1152,7 @@ MEDIA QUERIES
 }
 
 
-@media(max-width: 1055px) {
+@media(max-width: 1155px) {
 
   /* HOMEPAGE */
   h1, #myName {
@@ -1304,31 +1308,13 @@ MEDIA QUERIES
   }
 
   .works-title {
-    margin: 5px auto;
+    margin-left: -40px;
 
     font-size: 2em;
   }
 
-  .TheFork .project-name, .Ultralight .project-name, .Fendi .project-name, /*.has-shadowFactix*/ {
-    width: 160px;
-    padding: 10px;
-    padding-right: 20px;
-  }
-
-  .Fendi .project-name {
-    margin-left: -120px;
-  }
-
-  .Ultralight .project-name {
-    margin-left: -100px;
-  }
-
   .project-name h3 {
     font-size: 1.5em;
-  }
-
-  .Fendi img {
-    margin-right: 100px;
   }
 
   #contact h2 {
@@ -1344,7 +1330,7 @@ MEDIA QUERIES
   }
 
   .contact-info.email {
-    margin-right: -80px;
+    margin-right: 40px;
   }
 
   .contact-info.Linkedin {
@@ -1385,6 +1371,36 @@ MEDIA QUERIES
     padding-right: 80px;
   }
 
+  .TheFork, .Ultralight, .Factix, .Fendi {
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+
+  }
+
+  .TheFork .project-name, .Ultralight .project-name, .has-shadowFactix, .Fendi .project-name {
+    width: 80%;
+    margin: 0;
+    margin-top: -80px;
+    padding: 10px;
+
+    align-self: flex-start;
+  }
+
+  .moreWork a {
+    margin-right: 100px;
+  }
+
+  .Fendi img {
+    margin: 0 auto;
+  }
+
+  .Fendi {
+    background-color: #faba4a;
+  }
+
+  .Factix {
+    background-color: #2e2b38;
+  }
 }
 
 @media(max-width: 550px) {
@@ -1420,6 +1436,18 @@ MEDIA QUERIES
   .details .box {
     margin: 20px auto;
   }
+
+  .has-shadowInfoOne, .has-shadowInfoTwo, .has-shadowInfoThree {
+    display: none;
+  }
+
+  .has-shadowInfoFour {
+    display: block
+  }
+
+  .has-shadowInfoFour p {
+    padding: 5px;
+  }
 }
 
 @media(max-width: 425px) {
@@ -1439,32 +1467,13 @@ MEDIA QUERIES
     margin-right: 0;
   }
 
-  .TheFork .project-name, .Ultralight .project-name, .has-shadowFactix, .Fendi .project-name {
-    width: 120px;
-    padding: 10px;
-  }
-
-  .TheFork .project-name, .Ultralight .project-name, .has-shadowFactix {
-    margin-top: -150px;
-    margin-left: -80px;
-  }
-
-  .moreWork a {
-    margin-right: 100px;
-  }
-
-
-  .Ultralight .project-name p, .Ultralight .project-name h3 {
-    padding-right: 30px;
-  }
-
   .Fendi img {
-    margin-left: -100px;
+    margin: 0 auto;
   }
 
   .Fendi .project-name {
-    margin-top: -140px;
-  }
+    margin-bottom: -20px;
+  } 
 
   .contact-info.email {
     margin-right: 20px;
@@ -1476,7 +1485,10 @@ MEDIA QUERIES
 
   .SelectedWorksOnpage {
     margin-top: -120px;
-    max-width: 200px;
+    margin-left: 50px;
+    max-width: 80px;
+
+    font-size: 1.5em;
   }
 
   .fork-title {
