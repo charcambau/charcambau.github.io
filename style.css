@@ -363,18 +363,30 @@ main {
 
 .SelectedWorks {
   margin-top: 100px;
+  margin-top: -3em;
+  margin-bottom: 4em;
 }
 
 .works-title {
   text-decoration: none;
   color: rgb(138,183,232);
   font-size: 3em;
+
+  z-index: 1;
 }
 
 .works {
   margin: 200px auto;
 
   display: flex;
+}
+
+.worksNav {
+  align-self: flex-end;
+  margin-top: 5em;
+  margin-right: 3em;
+
+  z-index: 2;
 }
 
 .works img {
@@ -605,7 +617,7 @@ main {
 
 .style-description {
   margin-right: 5em;
-  margin-left: 40em;
+  margin-left: 4em;
   padding-top: 2em;
   padding-right: 5em;
   padding-bottom: 2em;
@@ -665,7 +677,7 @@ main {
 .card {
   width: 22em;
   margin-top: -15em;
-  margin-left: 22em;
+  margin-left: 23em;
 
   order: 1;
 }
@@ -776,7 +788,7 @@ main {
 }
 
 .FendiNav {
-  margin-left: -60px;
+  margin-left: -10em;
 }
 
 .thebrief {
@@ -977,7 +989,7 @@ main {
 
 .Factixtitle {
   margin-top: -12em;
-  margin-left: 60px;
+  margin-left: 4em;
   padding-top: 25px;
   padding-right: 100px;
   padding-left: 25px;
@@ -1040,24 +1052,45 @@ main {
   align-self: flex-end;
 }
 
-/*.heron, .ten-deep, .a-cold-wall {
-  width: 100%;
+.heron, .a-cold-wall {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+}
+
+.ten-deep {
+  margin-top: 50px;
 
   display: flex;
-}*/
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ten-deep .browser, .a-cold-wall .browser {
+  width: 110%;
+}
+
+.a-cold-wall {
+  margin-top: 50px;
+}
+
+.heron .browser {
+  z-index: -1;
+}
+
+.heron .logo {
+  z-index: 1;
+}
+
+.heron {
+  margin-top: 50px;
+}
 
 .browser {
   width: 80%;
 }
-
-/*.logo {
-  width: 30%;
-  margin-right: 100px;
-}
-
-.ten-deep .logo {
-  margin-left: 60px;
-}*/
 
 .factix-about {
   width: 100%;
@@ -1088,6 +1121,10 @@ main {
   margin-left: 160px;
 }
 
+.Factixfor {
+  margin-left: 250px;
+}
+
 /* Contact page */
 
 .contact-page {
@@ -1106,6 +1143,12 @@ main {
 /************
 MEDIA QUERIES
 *************/
+@media(max-width: 1020px) {
+  .has-shadowFork.with, .has-shadowFork.on {
+    margin-left: 400px;
+  }
+}
+
 
 @media(max-width: 1055px) {
 
@@ -1139,15 +1182,94 @@ MEDIA QUERIES
     margin-left: 10px;
   }
 
-  .theForkDisplay, .Fendi-display, .ultralight-display, .FactixDisplay {
+  .theForkDisplay, .Fendi-display, .ultralight-display, .FactixDisplay, .FendiHeader img {
     width: 50%;
   }
+
+  .FendiHeader img {
+    margin-top: 300px;
+  }
+
+  .FendiHeader .title {
+    margin-top: -20px;
+  }
+
+  .card1, .card2 {
+    margin: 0;
+    width: 10em;
+  }
+
+  .card1 {
+    margin-left: 150px;
+  }
+  
+  .card2 {
+    margin-left: -110px;
+  }
+
+  .has-shadowFendi.with, .has-shadowFendi.on {
+    margin-left: -50px;
+  }
+
+  .challenge {
+    flex-direction: column-reverse;
+  }
+
+  .challenge .Fendichallenge {
+    margin: 20px auto;
+    width: 80%;
+  }
+
+  .style-intro .box {
+    margin: 10px auto;
+  }
+
+  .custom, .homepage {
+    margin-left: 60px;
+  }
+
+  .ultra-title {
+    margin-top: -9em;
+  }
+
+  .ultra-title h1 {
+    font-size: 3em;
+  }
+
+  .ultralight-display {
+    margin-top: 16em;
+  }
+
+  .has-shadowFactix.Factixtitle {
+    margin: 0;
+    margin-left: 20px;
+    padding-right: 80px;
+  }
+
+  .FactixDisplay {
+    margin-left: -80px;
+  }
+
+  .has-shadowFactix.brief {
+    width: 90%;
+    margin: 10px;
+  }
+
+  .ten-deep .browser, .a-cold-wall .browser {
+    width: 90%;
+  }
+
 }
 
 @media(max-width: 880px) {
   .contact-page .contact-info {
     margin: 2em auto;
   }
+
+  .fork-title h1 {
+    font-size: 5em;
+  }
+
 }
 
 @media(max-width: 780px) {
@@ -1189,7 +1311,7 @@ MEDIA QUERIES
     font-size: 2em;
   }
 
-  .TheFork .project-name, .Ultralight .project-name, .Fendi .project-name, .has-shadowFactix {
+  .TheFork .project-name, .Ultralight .project-name, .Fendi .project-name, /*.has-shadowFactix*/ {
     width: 160px;
     padding: 10px;
     padding-right: 20px;
@@ -1230,6 +1352,72 @@ MEDIA QUERIES
   .contact-page .contact-info {
     margin: 2em auto;
   }
+
+  .ux-pages .description {
+    padding: 15px;
+  }
+
+  .has-shadowFork.with, .has-shadowFork.on {
+    margin-left: 20px;
+  }
+
+  .card {
+    width: 250px;
+    margin-top: -200px;
+    margin-left: 300px;
+  }
+
+  .fork-title {
+    margin-top: 150px;
+    margin-left: 10px;
+    padding: 20px;
+  }
+
+  .fork-title h1 {
+    font-size: 4em;
+  }
+
+  .ultra-title {
+    margin-left: 2em;
+    padding: 10px;
+    padding-right: 80px;
+  }
+
+}
+
+@media(max-width: 550px) {
+  .fork-title {
+    margin-top: 250px;
+  }
+
+  .theForkDisplay {
+    margin-top: 400px;;
+    margin-right: -80px;
+  }
+
+  .fork-challenge {
+    flex-direction: column-reverse;
+  }
+
+  .fork-challenge .description {
+    margin: 0;
+    margin-top: 30px;
+    width: 80%;
+  }
+
+  .card {
+    margin-left: 100px;
+  }
+
+  .ux .has-shadowFork {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 30px;
+  }
+
+  .details .box {
+    margin: 20px auto;
+  }
 }
 
 @media(max-width: 425px) {
@@ -1269,11 +1457,5 @@ MEDIA QUERIES
 
   .contact-page .contact-info {
     margin: 2em auto;
-  }
-}
-
-@media(max-width: 1020px) {
-  .has-shadowFork.with, .has-shadowFork.on {
-    margin-left: 400px;
   }
 }
