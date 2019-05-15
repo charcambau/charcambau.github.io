@@ -1427,6 +1427,10 @@ MEDIA QUERIES
     font-size: .8em;
   }
 
+  nav,  .info-wrapper {
+    margin-right: 80px;
+  }
+
   .has-shadowInfoOne{
     width: 100px;
   }
@@ -1435,11 +1439,20 @@ MEDIA QUERIES
     margin-right: 0;
   }
 
-  .TheFork .project-name, .Ultralight .project-name, .has-shadowFactix {
+  .TheFork .project-name, .Ultralight .project-name, .has-shadowFactix, .Fendi .project-name {
     width: 120px;
-    margin-right: 1em;
     padding: 10px;
   }
+
+  .TheFork .project-name, .Ultralight .project-name, .has-shadowFactix {
+    margin-top: -150px;
+    margin-left: -80px;
+  }
+
+  .moreWork a {
+    margin-right: 100px;
+  }
+
 
   .Ultralight .project-name p, .Ultralight .project-name h3 {
     padding-right: 30px;
@@ -1454,10 +1467,32 @@ MEDIA QUERIES
   }
 
   .contact-info.email {
-    margin-right: -30px;
+    margin-right: 20px;
   }
 
   .contact-page .contact-info {
     margin: 2em auto;
+  }
+
+  .SelectedWorksOnpage {
+    margin-top: -120px;
+    max-width: 200px;
+  }
+
+  .fork-title {
+    margin-top: 200px;
+  }
+
+  .theForkDisplay {
+    margin-top: 320px;
+    margin-left: -180px;
+  }
+
+  .details .box {
+    margin-bottom: 30px;
+  }
+
+  #Fendi-footer {
+    margin-top: 50px;
   }
 }
