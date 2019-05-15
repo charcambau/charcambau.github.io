@@ -81,8 +81,9 @@
 }
 
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans');
+@import url('https://fonts.googleapis.com/css?family=Alegreya:900');
 
-@import url("https://use.typekit.net/xjr7bpn.css");
+@import url('https://fonts.googleapis.com/css?family=Kanit:800');
 
 /* -- SECONDARY FONTS -- */
 
@@ -120,21 +121,23 @@ header {
 h1 {
   margin-left: 60px;
 
-  font-family: 'Alegreya Sans Black', sans-serif;
+  font-family: 'Alegreya Sans', sans-serif;
   font-size: 6em;
   line-height: 1em;
-  font-weight: 700;
+  font-weight: 900;
   z-index: 1;
 }
 
 h2 {
   margin-left: 2em;
-  font-family: 'Alegreya Sans Black', sans-serif;
+  font-family: 'Alegreya Sans', sans-serif;
   font-size: 2em;
+  font-weight: 900;
 }
 
 h3, .myName h4 {
-  font-family: 'Alegreya Sans Black', sans-serif;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 900;
 }
 
 nav {
