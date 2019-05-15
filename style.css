@@ -385,8 +385,6 @@ main {
   align-self: flex-end;
   margin-top: 5em;
   margin-right: 3em;
-
-  z-index: 2;
 }
 
 .works img {
@@ -1318,7 +1316,11 @@ MEDIA QUERIES
   }
 
   .Fendi .project-name {
-    margin-left: -70px;
+    margin-left: -120px;
+  }
+
+  .Ultralight .project-name {
+    margin-left: -100px;
   }
 
   .project-name h3 {
