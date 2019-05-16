@@ -373,6 +373,7 @@ main {
 
   text-decoration: none;
   color: rgb(250,248,248);
+  font-size: 1.5em;
 }
 
 .moreWork:hover {
