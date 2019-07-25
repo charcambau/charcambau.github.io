@@ -391,16 +391,12 @@ main {
   display: flex;
 }
 
-.work-header {
+/* .work-header {
   margin: 0;
-  
-  display: grid;
-  grid-template-columns: 3(1fr);
-}
+} */
 
 .worksNav {
   align-self: flex-end;
-  grid-column: 3/4;
   margin-top: 5em;
   margin-right: 3em;
 }
