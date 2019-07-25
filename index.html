@@ -21,11 +21,33 @@
       <h1 id="myName">Charlotte Cambau</h1>
 
       <nav class="box has-shadow one has-shadowNav homeNav">
-        <a href="index.html">About</a>
+        <a id="about">About</a>
         <a href="works.html">Work</a>
         <a href="contact.html">Contact</a>
       </nav>
     </div>
+
+    <article class="about-me" id="aboutSection">
+      <button  id="crossAbout" class="cross-about-btn">
+        <svg class="cross-about" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34.55 34.57">
+          <title>cross</title>
+          <path d="M39.13,34.46q7.09,7.11,14.13,14.13l-3.14,3.14L36,37.64,21.91,51.76,18.75,48.6,32.83,34.52,18.71,20.39l3.16-3.16L36,31.31,50.07,17.19l3.17,3.16Z" transform="translate(-18.71 -17.19)"/>
+        </svg>
+      </button>
+      <h5 class="about-me-title">About me</h5>
+      <p>Hi there!</p>
+      <p> I'm a young web designer based in Milan, from Paris, 
+        with a British nationality.
+        I studied communication in Paris first, 
+        then went on to studying Web and digital design in Milan. 
+      </p>
+      <p>I love designing user-friendly interfaces, constantly trying
+          to find new ways to do things.</p>
+      <p>I enjoy as much the designing aspect as I do the development and I believe
+        it all goes hand in hand.
+      </p>
+      <p>Have a look at <a href="works.html"> my work</a> if you want to, and don't hesitate to <a href="contact.html"> contact me</a> for anything!</p>
+    </article>
 
 
   <!--Three info boxes in a wrapper to make them flex items-->
@@ -59,7 +81,7 @@
   <main>
     <!--Preview of a few selected works in a section on homepage-->
     <section class="selected-work">
-      <h2><a href="#" class="works-title">Selected Works</a></h2>
+      <h2><a href="#" class="works-title">Work</a></h2>
 
       <!--article with an image, and the name and date of project-->
       <article class="works TheFork">
@@ -102,7 +124,7 @@
         </a>
       </article>
 
-      <p class="moreWork"><a href="works.html">More work</a></p>
+      <p class="moreWork"><a href="works.html#anchor">More work</a></p>
     </section>
 
     <!--section with contact info-->
@@ -136,5 +158,7 @@
 
     <a href="#top"><img src="images/arrow-white.png" alt="black arrow" width="50" class="arrow-bottom"></a>
   </main>
+
+  <script src="script.js"></script>
 </body>
 </html>
