@@ -6,10 +6,12 @@ closeAbout.addEventListener('click', closeTheAbout);
 
 function showAbout () {
   document.getElementById('aboutSection').style.transform = 'translateX(0)';
-  document.getElementsByTagName('header').style.overflowX = 'hidden';
+  document.getElementById('aboutSection').style.display = "block";
+  document.getElementsByClassName('headers').style.overflowX = 'hidden';
 }
 
 function closeTheAbout () {
-  document.getElementById('aboutSection').style.transform = 'translateX(200%)';
-  document.getElementsByTagName('header').style.overflowX = 'hidden';
+  document.getElementById('aboutSection').style.transform = 'translateX(50%)';
+  document.getElementById('aboutSection').style.display = 'none';
+  document.getElementsByClassName('headers').style.overflowX = 'hidden';
 }

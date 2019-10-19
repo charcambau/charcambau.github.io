@@ -28,7 +28,7 @@ body {
   flex-direction: column;
 
   font-family: 'Nunito', sans-serif;
-  background-color: #2e2b38;
+  background-color: #201e25;
   overflow-x: hidden;
 }
 
@@ -46,23 +46,23 @@ header {
 h1 {
   margin-left: 60px;
 
-  font-family: 'Alegreya Sans', sans-serif;
-  font-size: 6em;
+  font-family: 'titling-gothic-fb', sans-serif;
+  font-size: 4em;
   line-height: 1em;
-  font-weight: 900;
+  font-weight: 600;
   z-index: 1;
 }
 
 h2 {
   margin-left: 2em;
-  font-family: 'Alegreya Sans', sans-serif;
+  font-family: 'titling-gothic-fb', sans-serif;
   font-size: 2em;
-  font-weight: 900;
+  font-weight: 600;
 }
 
 h3, .myName h4 {
-  font-family: 'Alegreya Sans', sans-serif;
-  font-weight: 900;
+  font-family: 'titling-gothic-fb', sans-serif;
+  font-weight: 600;
 }
 
 nav {
@@ -127,20 +127,20 @@ nav a:hover {
 }
 
 .about-me:hover {
-  background-color: #7493F9;
+  background-color: #9300FF;
 }
 
 .about-me-title {
   margin: 0;
 
-  font-family: 'Alegreya Sans', sans-serif;;
+  font-family: 'titling-gothic-fb', sans-serif;;
   font-size: 2em;
-  color: #E7534C;
+  color: #9300FF;
 }
 
 .about-me a {
   text-decoration: none;
-  color: #7493F9;
+  color: #9300FF;
 }
 
 .cross-about-btn {
@@ -159,8 +159,8 @@ nav a:hover {
 }
 
 .cross-about:hover {
-  stroke: #E7534C;
-  fill: #E7534C;
+  stroke: #9300FF;
+  fill: #9300FF;
 }
 
 .about-me a:hover {
@@ -248,7 +248,7 @@ footer {
 }
 
 .has-shadowNav:hover:after {
-  background-color: #FF1414;
+  background-color: #9300FF;
 }
 
 .has-shadowInfoOne:hover:after {
@@ -295,16 +295,16 @@ background-color: #9300FF;
 
 /* HOMEPAGE */
 .homeHeader {
-  margin-top: 0;
+  margin-top: 30;
   flex-direction: column;
 }
 
 #myName {
-  margin-top: 30px;
+  margin-top: 35px;
   margin-bottom: -50px;
-  font-size: 12em;
+  font-size: 7em;
   /* color: rgb(160, 174, 255); */
-  color: #E7534C;
+  color: #ffdd1f;
 }
 
 .nameNav {
