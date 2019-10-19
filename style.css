@@ -199,13 +199,14 @@ nav a:hover {
 
   text-align: center;
   text-decoration: none;
-  color: black;
+  color: #ffdd1f;
+  background-color: transparent;
+  border: none;
   opacity: 1;
 }
 
 .myName:hover {
-  background-color: #7493F9;
-  color: white;
+  color: #1f5bff;
 }
 
 .myName h4 {
@@ -551,7 +552,7 @@ main {
 }
 
 .fork-title {
-  margin-top: 8em;
+  margin-top: 5em;
   margin-left: 4em;
   padding-top: 2em;
   padding-right: 4em;
@@ -562,6 +563,8 @@ main {
 
 .fork-title h1 {
   margin: 0;
+
+  font-size: 4em;
 }
 
 .fork-title .inside-box {
@@ -798,6 +801,8 @@ main {
 
 .title h1 {
   margin: 0;
+
+  font-size: 4em;
 }
 
 .FendiNav {
@@ -1433,6 +1438,10 @@ MEDIA QUERIES
   }
 
   .has-shadowFactix.Factixtitle {
+    padding-right: 50px;
+  }
+
+  .FendiHeader .title {
     padding-right: 50px;
   }
 

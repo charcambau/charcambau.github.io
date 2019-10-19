@@ -11,7 +11,7 @@ function showAbout () {
 }
 
 function closeTheAbout () {
-  document.getElementById('aboutSection').style.transform = 'translateX(50%)';
+  document.getElementById('aboutSection').style.transform = 'translateX(20%)';
   document.getElementById('aboutSection').style.display = 'none';
   document.getElementById('aboutSection').style.opacity = "0";
 }
