@@ -535,7 +535,7 @@ main {
 /* PROJECT ONE : THE FORK */
 .theForkDisplay {
   width: 40em;
-  margin-top: 18em;
+  margin-top: 14em;
   margin-left: -18em;
 
   align-self: flex-start;
@@ -575,8 +575,8 @@ main {
 }
 
 .brief {
-  width: 80%;
   margin-bottom: 3em;
+
   padding-top: 2em;
   padding-right: 3em;
   padding-bottom: 2em;
@@ -586,6 +586,34 @@ main {
 .brief h2, .challenge h2, .style-container h2 {
   margin: 0;
   font-size: 2em;
+}
+
+/* LEFT OFF HERE-- TRYING TO CREATE A BOX WITH DETAILS ON THE BRIEF---- SEE JS */
+
+.brief__see-more {
+  display: block;
+  margin-top: 20px;
+  margin-left: 30%;
+
+  color: #773DD4;
+  text-decoration: none;
+}
+
+.brief__see-more:hover {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+}
+
+.thebrief__hide {
+  max-width: 450px;
+  padding-top: 2em;
+  padding-right: 3em;
+  padding-bottom: 2em;
+  padding-left: 2em;
+
+  display: block;
+
+  transform: translateY(-20px);
 }
 
 .challenge {
