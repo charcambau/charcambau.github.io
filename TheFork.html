@@ -23,7 +23,7 @@
 
   <!--header with the title of the project, an image and the navigation box-->
   <header>
-    <section class="project-header">
+    <section class="project-header the-fork__header">
       <!-- the title of the project in a box -->
       <article class="box fork-title has-shadow has-shadowFork">
         <h1>The Fork</h1>
@@ -70,15 +70,19 @@
     <!--article for the intro to the project with brief and challenge-->
     <article class="intro">
       <!--Section to contain the text about the brief-->
-      <section class="box brief fork-brief has-shadow has-shadowFork">
+      <section class="box has-shadow has-shadowFork brief fork-brief">
         <h2>The brief</h2>
-
-        <article>
-          <p>This project was part of a UX design class at Scuola Politecnica di Design (Milan).</p>
-
-          <p><strong>Redesign TheFork by doing research, finding people’s needs and their issues with the service Add new features, or redesign new ones.</strong></p>
-        </article>
+        <p class="brief__see-more" id="moreBrief">See more</p>
+        <p class="brief__see-less" id="lessBrief">See less</p>
       </section>
+      
+      <article class="box has-shadow has-shadowFork thebrief__hide" id="briefFork">
+        <p>This project was part of a UX design class at Scuola Politecnica di Design (Milan).</p>
+        
+        <p><strong>Redesign TheFork by doing research, finding people’s needs and their issues with the service Add new features, or redesign new ones.</strong></p>
+      </article>
+      
+      <!-- <img class="old-thefork" src="images/TheFork/old-thefork-bg2.png" alt="old fork app on grey bg"> -->
 
       <!--Div to contain the image and text about the challenge-->
       <div class="challenge fork-challenge">
